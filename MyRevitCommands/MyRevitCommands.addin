@@ -55,4 +55,15 @@
 		<VendorDescription>github.com/frankleyyago</VendorDescription>
 		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
 	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>FB6461EE-F57E-4D66-BCD8-52A245E4029B</AddInId>
+		<FullClassName>MyRevitCommands.PlaceLoopElement</FullClassName>
+		<Text>PlaceLoopElement</Text>
+		<Description>Place floor</Description>
+		<VendorId>Frankleyyago</VendorId>
+		<VendorDescription>github.com/frankleyyago</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
 </RevitAddIns>
