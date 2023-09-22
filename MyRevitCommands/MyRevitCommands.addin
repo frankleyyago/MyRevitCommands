@@ -44,4 +44,15 @@
 		<VendorDescription>github.com/frankleyyago</VendorDescription>
 		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
 	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>C6DC31A6-4C31-426E-88B0-E58F2A1BFFAA</AddInId>
+		<FullClassName>MyRevitCommands.PlaceLineElement</FullClassName>
+		<Text>PlaceLineElement</Text>
+		<Description>Place wall based on lines</Description>
+		<VendorId>Frankleyyago</VendorId>
+		<VendorDescription>github.com/frankleyyago</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
 </RevitAddIns>
