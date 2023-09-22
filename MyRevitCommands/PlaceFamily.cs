@@ -22,17 +22,10 @@ namespace MyRevitCommands
 
             //Get family symbol
             FilteredElementCollector collector = new FilteredElementCollector(doc);
-            IList<Element> symbols = collector.OfClass(typeof(FamilySymbol)).WhereElementIsElementType().ToElements();
-
-            FamilySymbol symbol = null;
-            foreach (Element ele in symbols)
-            {
-                if(ele.Name == "60\" x 30\"")
-                {
-                    symbol = ele as FamilySymbol;
-                    break;
-                }
-            }
+            FamilySymbol symbol = collector.OfClass(typeof(FamilySymbol))
+                .WhereElementIsElementType()
+                .Cast<FamilySymbol>()
+                .First(x => x.Name == "60\" x 30\"");
 
             //Create a transaction
             try
