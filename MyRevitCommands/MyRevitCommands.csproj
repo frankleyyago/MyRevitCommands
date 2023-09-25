@@ -55,6 +55,7 @@
     <Compile Include="CollectWindows.cs" />
     <Compile Include="DeleteElement.cs" />
     <Compile Include="GetElementId.cs" />
+    <Compile Include="GetParameter.cs" />
     <Compile Include="PlaceFamily.cs" />
     <Compile Include="PlaceLineElement.cs" />
     <Compile Include="PlaceLoopElement.cs" />

@@ -34,6 +34,7 @@ namespace MyRevitCommands
             Line l3 = Line.CreateBound(p4, p5);
             Line l4 = Line.CreateUnbound(p5, p1);
 
+
             //Add curves to the list
             curves.Add(l1);
             curves.Add(l2);
@@ -57,7 +58,12 @@ namespace MyRevitCommands
                 {
                     trans.Start();
 
-                    Floor.Create(doc, cArray);
+                    TaskDialog.Show("Title", "Body");
+
+                    //Deprecated method
+                    //doc.Create.NewFloor(cArray, false);
+
+                    return Result.Succeeded;
                 }
             }
             catch (Exception e)
