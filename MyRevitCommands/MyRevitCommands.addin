@@ -99,4 +99,15 @@
 		<VendorDescription>github.com/frankleyyago</VendorDescription>
 		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
 	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>70049855-89B1-47E0-890D-359D94057573</AddInId>
+		<FullClassName>MyRevitCommands.EditElement</FullClassName>
+		<Text>EditElement</Text>
+		<Description>Move and rotate an element</Description>
+		<VendorId>Frankleyyago</VendorId>
+		<VendorDescription>github.com/frankleyyago</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
 </RevitAddIns>
