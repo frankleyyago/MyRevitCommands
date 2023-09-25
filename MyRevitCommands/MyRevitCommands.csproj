@@ -60,6 +60,7 @@
     <Compile Include="PlaceLineElement.cs" />
     <Compile Include="PlaceLoopElement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SetParameter.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="MyRevitCommands.addin">
