@@ -127,7 +127,18 @@
 		<AddInId>FAE05C25-EE50-4E22-AC2C-690F203955BD</AddInId>
 		<FullClassName>MyRevitCommands.ElementIntersection</FullClassName>
 		<Text>ElementIntersection</Text>
-		<Description>Select a geometry</Description>
+		<Description>Find a intersection between elements</Description>
+		<VendorId>Frankleyyago</VendorId>
+		<VendorDescription>github.com/frankleyyago</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands.dll</Assembly>
+		<AddInId>9CD6095B-44D7-4CFF-BDBB-DA5779E19E59</AddInId>
+		<FullClassName>MyRevitCommands.ProjectRay</FullClassName>
+		<Text>ProjectRay</Text>
+		<Description>Find the ray of intersection</Description>
 		<VendorId>Frankleyyago</VendorId>
 		<VendorDescription>github.com/frankleyyago</VendorDescription>
 		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
