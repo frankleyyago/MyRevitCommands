@@ -49,6 +49,10 @@ namespace MyRevitCommands
                             area += gFace.Area;
                             faces++;
                         }
+
+                        area = UnitUtils.ConvertFromInternalUnits(area, UnitTypeId.SquareMeters);
+
+                        TaskDialog.Show("Geometry", string.Format($"Number of faces: {faces}\n Total area: {area}"));
                     }
 
                 }

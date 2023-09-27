@@ -44,15 +44,16 @@ namespace MyRevitCommands
                             XYZ loc = locp.Point;
                             XYZ newloc = new XYZ(loc.X + 3, loc.Y, loc.Z);
 
-                            locp.Point = newloc;
-                            trans.Commit();
-                        }                        
+                            locp.Point = newloc;                          
+                        }
+
+                        trans.Commit();
                     }
                 }
 
                 return Result.Succeeded;
             }
-            catch (Exception e )
+            catch (Exception e)
             {
                 message = e.Message;
                 return Result.Failed;
