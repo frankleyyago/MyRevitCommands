@@ -56,6 +56,7 @@
     <Compile Include="CollectWindows.cs" />
     <Compile Include="DeleteElement.cs" />
     <Compile Include="EditElement.cs" />
+    <Compile Include="ElementIntersection.cs" />
     <Compile Include="GetElementId.cs" />
     <Compile Include="GetParameter.cs" />
     <Compile Include="PlaceFamily.cs" />
