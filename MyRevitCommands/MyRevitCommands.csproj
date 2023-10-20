@@ -52,29 +52,30 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChangeLocation.cs" />
-    <Compile Include="CollectWindows.cs" />
-    <Compile Include="DeleteElement.cs" />
-    <Compile Include="EditElement.cs" />
-    <Compile Include="ElementIntersection.cs" />
-    <Compile Include="GetElementId.cs" />
-    <Compile Include="GetParameter.cs" />
-    <Compile Include="PlaceFamily.cs" />
-    <Compile Include="PlaceLineElement.cs" />
-    <Compile Include="PlaceLoopElement.cs" />
-    <Compile Include="ProjectRay.cs" />
+    <Compile Include="Commands\ChangeLocation.cs" />
+    <Compile Include="Commands\CollectWindows.cs" />
+    <Compile Include="Commands\DeleteElement.cs" />
+    <Compile Include="Commands\EditElement.cs" />
+    <Compile Include="Commands\ElementIntersection.cs" />
+    <Compile Include="Commands\GetElementId.cs" />
+    <Compile Include="Commands\GetParameter.cs" />
+    <Compile Include="Commands\PlaceFamily.cs" />
+    <Compile Include="Commands\PlaceLineElement.cs" />
+    <Compile Include="Commands\PlaceLoopElement.cs" />
+    <Compile Include="Commands\ProjectRay.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SelectGeometry.cs" />
-    <Compile Include="SetParameter.cs" />
-    <Compile Include="PlanView.cs" />
+    <Compile Include="Commands\SelectGeometry.cs" />
+    <Compile Include="Commands\SetParameter.cs" />
+    <Compile Include="Commands\PlanView.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Utilities\MyRevitCommands.addin">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <Content Include="Resources\Icon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
