@@ -2,7 +2,7 @@
 <RevitAddIns>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>3BF6D1C8-3083-4C5C-AD1D-355535E9B916</AddInId>
 		<FullClassName>MyRevitCommands.GetElementId</FullClassName>
 		<Text>GetElementId</Text>
@@ -13,7 +13,7 @@
 	</AddIn>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>6CD5209A-465E-49C3-9A28-4F248FC7A63B</AddInId>
 		<FullClassName>MyRevitCommands.CollectWindows</FullClassName>
 		<Text>CollectWindows</Text>
@@ -24,7 +24,7 @@
 	</AddIn>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>B5B953CB-E543-4946-AF6C-774B54FF511A</AddInId>
 		<FullClassName>MyRevitCommands.DeleteElement</FullClassName>
 		<Text>DeleteElement</Text>
@@ -35,7 +35,7 @@
 	</AddIn>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>7C5B0B85-2B45-4DF6-BD34-0CA809D42829</AddInId>
 		<FullClassName>MyRevitCommands.PlaceFamily</FullClassName>
 		<Text>PlaceFamily</Text>
@@ -46,7 +46,7 @@
 	</AddIn>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>C6DC31A6-4C31-426E-88B0-E58F2A1BFFAA</AddInId>
 		<FullClassName>MyRevitCommands.PlaceLineElement</FullClassName>
 		<Text>PlaceLineElement</Text>
@@ -57,7 +57,7 @@
 	</AddIn>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>FB6461EE-F57E-4D66-BCD8-52A245E4029B</AddInId>
 		<FullClassName>MyRevitCommands.PlaceLoopElement</FullClassName>
 		<Text>PlaceLoopElement</Text>
@@ -68,7 +68,7 @@
 	</AddIn>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>BA0A31EA-A02A-44C2-BA48-135EAFB3FDD9</AddInId>
 		<FullClassName>MyRevitCommands.GetParameter</FullClassName>
 		<Text>GetParameter</Text>
@@ -79,7 +79,7 @@
 	</AddIn>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>5D61B001-A4FD-498F-B9D4-3A4B041E0BDC</AddInId>
 		<FullClassName>MyRevitCommands.SetParameter</FullClassName>
 		<Text>SetParameter</Text>
@@ -90,7 +90,7 @@
 	</AddIn>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>FE83757B-8F06-4273-8BF0-E6BD3AC368C1</AddInId>
 		<FullClassName>MyRevitCommands.ChangeLocation</FullClassName>
 		<Text>ChangeLocation</Text>
@@ -101,7 +101,7 @@
 	</AddIn>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>70049855-89B1-47E0-890D-359D94057573</AddInId>
 		<FullClassName>MyRevitCommands.EditElement</FullClassName>
 		<Text>EditElement</Text>
@@ -112,7 +112,7 @@
 	</AddIn>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>DA0EA817-6430-4998-B6D5-1B55F9A30D6A</AddInId>
 		<FullClassName>MyRevitCommands.SelectGeometry</FullClassName>
 		<Text>SelectGeometry</Text>
@@ -123,7 +123,7 @@
 	</AddIn>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>FAE05C25-EE50-4E22-AC2C-690F203955BD</AddInId>
 		<FullClassName>MyRevitCommands.ElementIntersection</FullClassName>
 		<Text>ElementIntersection</Text>
@@ -134,7 +134,7 @@
 	</AddIn>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>9CD6095B-44D7-4CFF-BDBB-DA5779E19E59</AddInId>
 		<FullClassName>MyRevitCommands.ProjectRay</FullClassName>
 		<Text>ProjectRay</Text>
@@ -145,7 +145,7 @@
 	</AddIn>
 	<AddIn Type="Command">
 		<Name>MyRevitCommands</Name>
-		<Assembly>MyRevitCommands.dll</Assembly>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>E1698DF7-570B-4359-BD5F-CAAB22539C25</AddInId>
 		<FullClassName>MyRevitCommands.PlanView</FullClassName>
 		<Text>PlanView</Text>
