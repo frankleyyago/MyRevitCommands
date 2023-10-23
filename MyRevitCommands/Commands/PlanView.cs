@@ -29,7 +29,7 @@ namespace MyRevitCommands
             //Get level
             Level level = new FilteredElementCollector(doc)
                 .OfCategory(BuiltInCategory.OST_Levels)
-                .WhereElementIsNotElementType()                
+                .WhereElementIsNotElementType()        
                 .Cast<Level>()
                 .First(x => x.Name == "Level 1");
 
@@ -43,7 +43,7 @@ namespace MyRevitCommands
                     ViewPlan vPlan = ViewPlan.Create(doc, viewFamily.Id, level.Id);
                     vPlan.Name = "New Floor";
 
-                    trans.Commit();                    
+                    trans.Commit();
                 }
 
                 return Result.Succeeded;
