@@ -165,4 +165,15 @@
 		<VendorDescription>github.com/frankleyyago</VendorDescription>
 		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
 	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
+		<AddInId>7699E8D1-75A9-4585-A5F5-8063CB8CEE52</AddInId>
+		<FullClassName>MyRevitCommands.TagView</FullClassName>
+		<Text>TagView</Text>
+		<Description>Tag elements</Description>
+		<VendorId>Frankleyyago</VendorId>
+		<VendorDescription>github.com/frankleyyago</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
 </RevitAddIns>
