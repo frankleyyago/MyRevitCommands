@@ -5,6 +5,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Reflection;
+using System.IO;
+using System.Windows.Media.Imaging;
 
 namespace MyRevitCommands
 {
@@ -20,11 +22,21 @@ namespace MyRevitCommands
             //Create a ribbon tab
             application.CreateRibbonTab("Commands");
 
+            //Retrieve the path of the current executing assembly
             string path = Assembly.GetExecutingAssembly().Location;
+            //Create a button
             PushButtonData button = new PushButtonData("Button1", "PlaceFamily", path, "MyRevitCommands.PlaceFamily");
 
+            //Create a panel
             RibbonPanel panel = application.CreateRibbonPanel("Commands", "Commands");
-            panel.AddItem(button);
+
+            //Retrieve the path of the icon image
+            Uri imagePath = new Uri(Path.Combine(Path.GetDirectoryName(path), "Resources", "Icon.ico"));
+            BitmapImage image = new BitmapImage(imagePath);
+
+            //Add the button to the panel
+            PushButton pushButton = panel.AddItem(button) as PushButton;
+            pushButton.LargeImage = image;
 
             return Result.Succeeded;
         }
