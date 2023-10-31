@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace MyRevitCommands
 {
     [Transaction(TransactionMode.Manual)]
-    internal class Sheets : IExternalCommand
+    internal class CreateSheet : IExternalCommand
     {
         public Result Execute(ExternalCommandData commandData, ref string message, ElementSet elements)
         {

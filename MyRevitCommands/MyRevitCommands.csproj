@@ -66,7 +66,7 @@
     <Compile Include="Commands\PlaceLoopElement.cs" />
     <Compile Include="Commands\PlaceView.cs" />
     <Compile Include="Commands\ProjectRay.cs" />
-    <Compile Include="Commands\Sheets.cs" />
+    <Compile Include="Commands\CreateSheet.cs" />
     <Compile Include="Commands\TagView.cs" />
     <Compile Include="Commands\ViewFilter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

@@ -180,8 +180,8 @@
 		<Name>MyRevitCommands</Name>
 		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
 		<AddInId>0A3183A6-EC36-4405-B30F-3AEEE52CA06A</AddInId>
-		<FullClassName>MyRevitCommands.Sheets</FullClassName>
-		<Text>Sheets</Text>
+		<FullClassName>MyRevitCommands.CreateSheet</FullClassName>
+		<Text>CreateSheet</Text>
 		<Description>Create a new sheet</Description>
 		<VendorId>Frankleyyago</VendorId>
 		<VendorDescription>github.com/frankleyyago</VendorDescription>
