@@ -187,4 +187,25 @@
 		<VendorDescription>github.com/frankleyyago</VendorDescription>
 		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
 	</AddIn>
+	<AddIn Type="Command">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
+		<AddInId>E3D45400-F92D-4CAB-9DFE-EE22888232B3</AddInId>
+		<FullClassName>MyRevitCommands.PlaceView</FullClassName>
+		<Text>PlaceView</Text>
+		<Description>Create a new sheet</Description>
+		<VendorId>Frankleyyago</VendorId>
+		<VendorDescription>github.com/frankleyyago</VendorDescription>
+		<VisibilityMode>NotVisibleWhenNoActiveDocument</VisibilityMode>
+	</AddIn>
+	<AddIn Type="Application">
+		<Name>MyRevitCommands</Name>
+		<Assembly>MyRevitCommands/MyRevitCommands.dll</Assembly>
+		<AddInId>5FB19380-2562-4B78-9F36-9F2E8ECF1378</AddInId>
+		<FullClassName>MyRevitCommands.App</FullClassName>
+		<Text>App</Text>
+		<Description>Create a tab and buttons</Description>
+		<VendorId>Frankleyyago</VendorId>
+		<VendorDescription>github.com/frankleyyago</VendorDescription>
+	</AddIn>
 </RevitAddIns>

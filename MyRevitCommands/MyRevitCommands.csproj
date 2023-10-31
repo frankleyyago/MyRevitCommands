@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App.cs" />
     <Compile Include="Commands\ChangeLocation.cs" />
     <Compile Include="Commands\CollectWindows.cs" />
     <Compile Include="Commands\DeleteElement.cs" />
@@ -62,6 +63,7 @@
     <Compile Include="Commands\PlaceFamily.cs" />
     <Compile Include="Commands\PlaceLineElement.cs" />
     <Compile Include="Commands\PlaceLoopElement.cs" />
+    <Compile Include="Commands\PlaceView.cs" />
     <Compile Include="Commands\ProjectRay.cs" />
     <Compile Include="Commands\Sheets.cs" />
     <Compile Include="Commands\TagView.cs" />
